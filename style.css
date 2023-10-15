@@ -62,6 +62,8 @@ header nav a:hover{
     margin: 30px auto 40px;
 }
 
+
+/* Formatação da página de lista de cineastras */
 .main-section{
     background-color: rgba(165, 42, 42, 0.021);
     width: 90%;
@@ -100,6 +102,8 @@ header nav a:hover{
 .main-section .container-cineastra .cineastra .nome-cineastra h1{
     font-size: 40px;
     margin-bottom: 20px;
+    font-weight: 900;
+    letter-spacing: -1px;
 }
 
 .main-section .container-cineastra .cineastra .nome-cineastra p{
@@ -113,4 +117,50 @@ header nav a:hover{
     padding: 10px 10px;
     margin: 10px 0px;
     background-color: orange;
+}
+
+
+
+/* Formatação da página do cineastras */
+.main-section-cineastra{
+    background-color: rgba(165, 42, 42, 0.021);
+    width: 90%;
+    margin: 50px auto;
+    height: 100vh;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.404);
+    border-radius: 30px;
+
+    padding: 20px;
+}
+
+.main-section-cineastra .container-filmes{
+    border-radius: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.main-section-cineastra .container-filmes a{
+    border-bottom: solid 1px black;
+    display: block;
+    text-decoration: none;
+    color: #000000;
+    flex-basis: 23%;
+    margin: 20px auto;
+    padding-bottom: 20px;
+}
+
+.main-section-cineastra .container-filmes a .filme img{
+    width: 100%;
+    height: 280px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 20px;
+}
+
+.main-section-cineastra .container-filmes a .filme h2{
+    font-weight: 900;
+    letter-spacing: -1px;
+    text-align: center;
+    margin-top: 10px;
 }
