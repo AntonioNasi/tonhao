@@ -13,6 +13,39 @@ body{
 }
 
 
+/* Formatação do menu */
+header .caixa-menu{
+    background-color: #CC1111;
+    width: auto;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+header .caixa-menu .menu-grande{
+    display: flex;
+    width: 85%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+    border: solid 1px yellow;
+}
+header .caixa-menu .menu-grande nav{
+    border: solid 1px black;
+}
+header .caixa-menu .menu-grande .redes-sociais{
+    border: solid 1px orange;
+}
+header .caixa-menu .menu-grande .menu-pequeno{
+    border: solid 1px violet;
+}
+
+
+
+
+
+
+
 
 
 
