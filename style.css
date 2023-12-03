@@ -68,6 +68,79 @@ header .caixa-menu .menu-grande .redes-sociais a img{
     }
 }
 
+@media screen and (max-width: 600px){
+    header .caixa-menu{
+        width: 100%;
+    }
+
+    header .caixa-menu .menu-grande{
+        width: 100%;
+    }
+
+    header .caixa-menu .menu-grande nav{
+        display: none;
+    }
+
+    header .caixa-menu .menu-grande .redes-sociais{
+        display: none;
+    }
+
+    .main-section{
+        width: auto;
+    }
+
+    .main-section .container-pag-inicio{
+        width: auto;
+        height: auto;
+    }
+}
+
+
+/* Formatação do menu mobile */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+  
+.dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+}
+  
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+
+
+
+
 
 header .logo-e-descricao{
     height: 400px;
@@ -122,19 +195,19 @@ header .logo-e-descricao{
 }
 
 .main-section .container-cineastra{
-    border-radius: 20px;
+    max-width: 1180px;
+    margin: 0 auto;
     margin-bottom: 20px;
 }
 
 .main-section .container-cineastra .cineastra{
     display: flex;
-    background-color: rgba(134, 186, 210, .5);
-    border-radius: 20px;
+    border-bottom: solid 1px #000000;
     padding: 20px;
 }
 
 .main-section .container-cineastra .cineastra .foto-cineastra{
-    width: 15%;
+    width: 45%;
 }
 
 .main-section .container-cineastra .cineastra .foto-cineastra img{
@@ -170,18 +243,15 @@ header .logo-e-descricao{
 /* Formatação da página do cineastras */
 .main-section-cineastra{
     background-color: rgba(165, 42, 42, 0.021);
-    width: 90%;
+    width: auto;
     margin: 50px auto;
     height: auto;
-    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.404);
-    border-radius: 30px;
-
     padding: 20px;
 }
 
 .main-section-cineastra .container-filmes{
-    border-radius: 20px;
-    margin-bottom: 20px;
+    max-width: 1180px;
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
 }
@@ -202,6 +272,10 @@ header .logo-e-descricao{
     object-fit: cover;
     object-position: center;
     border-radius: 20px;
+}
+
+.main-section-cineastra .container-filmes a .filme img:hover{
+    filter: sepia(50%);
 }
 
 .main-section-cineastra .container-filmes a .filme h2{
