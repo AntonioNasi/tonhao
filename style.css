@@ -70,15 +70,39 @@ header .caixa-menu .menu-grande .redes-sociais a img{
 
 
 header .logo-e-descricao{
-    height: 300px;
+    height: 400px;
     margin-top: 100px;
     background-color: #CC1111;
+
+    background-image: url(./banner_tonhao.jpeg);
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    animation-name: rolar;
+    animation-duration: 30s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+}
+@keyframes rolar {
+    to{background-position: bottom;}
 }
 
 
 .main-section{
-    width: 85%;
-    margin: 0 auto;
+    width: auto;
+    margin: 0px auto 0px;
+    border: solid 1px transparent;
+}
+.main-section .container-pag-inicio{
+    width: 1180px;
+    margin: 60px auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: solid 1px #ffffff8a;
+
+    height: 600px;
 }
 
 
@@ -93,14 +117,8 @@ header .logo-e-descricao{
 
 /* Formatação da página de lista de cineastras */
 .main-section{
-    background-color: rgba(165, 42, 42, 0.021);
-    width: 90%;
-    margin: 50px auto;
-    height: 100vh;
-    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.404);
-    border-radius: 30px;
-
-    padding: 20px;
+    background-color: rgba(253, 223, 171, .3);
+    width: auto;
 }
 
 .main-section .container-cineastra{
