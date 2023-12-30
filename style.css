@@ -12,6 +12,10 @@ body{
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+}
+
 
 /* Formatação do menu */
 header .caixa-menu{
@@ -62,6 +66,10 @@ header .caixa-menu .menu-grande .redes-sociais a img{
     width: 28%;
 }
 
+header .caixa-menu .menu-grande .menu-pequeno{
+    width: 100%;
+}
+
 @media screen and (min-width: 600px){
     header .caixa-menu .menu-grande .menu-pequeno{
         display: none;
@@ -90,15 +98,16 @@ header .caixa-menu .menu-grande .redes-sociais a img{
     }
 
     .main-section .container-pag-inicio{
-        width: auto;
-        height: auto;
+        width: 100%;
     }
 }
 
 
 /* Formatação do menu mobile */
 .dropbtn {
-    background-color: #4CAF50;
+    display: block;
+    text-align: center;
+    background-color: #CC1111;
     color: white;
     padding: 16px;
     font-size: 16px;
@@ -107,22 +116,25 @@ header .caixa-menu .menu-grande .redes-sociais a img{
 }
   
 .dropdown {
-    position: relative;
-    display: inline-block;
+    position: ;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
 }
   
 .dropdown-content {
     display: none;
     position: absolute;
+    left: 9%;
     background-color: #f9f9f9;
-    min-width: 160px;
+    min-width: 300px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
   
 .dropdown-content a {
     color: black;
-    padding: 12px 16px;
+    padding: 12px 100px;
     text-decoration: none;
     display: block;
 }
@@ -134,7 +146,7 @@ header .caixa-menu .menu-grande .redes-sociais a img{
 }
   
 .dropdown:hover .dropbtn {
-    background-color: #3e8e41;
+    background-color: #cf1c1c;
 }
 
 
@@ -169,13 +181,13 @@ header .logo-e-descricao{
     border: solid 1px transparent;
 }
 .main-section .container-pag-inicio{
-    width: 1180px;
+    width: 100%;
     margin: 60px auto;
     padding: 20px;
     background-color: #ffffff;
     border: solid 1px #ffffff8a;
 
-    height: 600px;
+    height: auto;
 }
 
 
