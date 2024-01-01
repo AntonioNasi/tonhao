@@ -66,6 +66,33 @@ header .caixa-menu .menu-grande .redes-sociais a img{
     width: 28%;
 }
 
+
+
+.redes-sociais-mob{
+    display: flex;
+    margin: 23% auto -80px;
+    width: 200px;
+}
+.redes-sociais-mob a{
+    text-decoration: none;
+    display: block;
+    margin: 0px;
+    padding: 0px;
+}
+.redes-sociais-mob a img{
+    width: 70%;
+    filter:brightness(20%);
+}
+
+@media screen and (min-width:600px){
+    .redes-sociais-mob{
+        display: none;
+    }
+}
+
+
+
+
 header .caixa-menu .menu-grande .menu-pequeno{
     width: 100%;
 }
@@ -126,6 +153,7 @@ header .caixa-menu .menu-grande .menu-pequeno{
     display: none;
     position: absolute;
     left: 9%;
+    top: 110%;
     background-color: #f9f9f9;
     min-width: 300px;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
@@ -134,9 +162,11 @@ header .caixa-menu .menu-grande .menu-pequeno{
   
 .dropdown-content a {
     color: black;
-    padding: 12px 100px;
+    padding: 12px 80px;
     text-decoration: none;
     display: block;
+    text-transform: uppercase;
+    border-bottom: 1px solid #CC1111;
 }
   
 .dropdown-content a:hover {background-color: #f1f1f1}
