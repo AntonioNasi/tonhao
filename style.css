@@ -130,7 +130,10 @@ header .caixa-menu .menu-grande .menu-pequeno{
 }
 
 
-/* Formatação do menu mobile */
+
+
+
+/* FORMATAÇÃO DO MENU MOBILE */
 .dropbtn {
     display: block;
     text-align: center;
@@ -183,7 +186,6 @@ header .caixa-menu .menu-grande .menu-pequeno{
 
 
 
-
 header .logo-e-descricao{
     height: 400px;
     margin-top: 100px;
@@ -202,6 +204,17 @@ header .logo-e-descricao{
 }
 @keyframes rolar {
     to{background-position: bottom;}
+}
+
+
+
+
+
+/* FORMATAÇÃO DO BANNER PRINCIPAL */
+.banner-tonhao{
+    width: 1180px;
+    margin: 0 auto;
+    border: solid 1px black;
 }
 
 
@@ -230,7 +243,11 @@ header .logo-e-descricao{
 }
 
 
-/* Formatação da página de lista de cineastras */
+
+
+
+
+/* FORMATAÇÃO DA PÁGINA CINEASTRAS */
 .main-section{
     background-color: rgba(253, 223, 171, .3);
     width: auto;
@@ -282,7 +299,9 @@ header .logo-e-descricao{
 
 
 
-/* Formatação da página do cineastras */
+
+
+/* FORMATAÇÃO DA PÁGINA DO CINEASTRA */
 .main-section-cineastra{
     background-color: rgba(165, 42, 42, 0.021);
     width: auto;
@@ -328,7 +347,10 @@ header .logo-e-descricao{
 }
 
 
-/* Configuração do botão voltar pra lista de cineastras */
+
+
+
+/* CONFIGURAÇÃO DO BOTÃO VOLTAR PARA LISTA DE CINEASTRAS */
 #myBtn {
    display: none;
    position: fixed;
