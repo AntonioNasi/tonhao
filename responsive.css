@@ -1,0 +1,145 @@
+/* Formatação dos botões de redes sociais */
+@media screen and (min-width:600px){
+    .redes-sociais-mob{
+        display: none;
+    }
+}
+
+/* Formatação do MENU */
+@media screen and (min-width: 600px){
+    header .caixa-menu .menu-grande .menu-pequeno{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 600px){
+    header .caixa-menu{
+        width: 100%;
+    }
+
+    header .caixa-menu .menu-grande{
+        width: 100%;
+    }
+
+    header .caixa-menu .menu-grande nav{
+        display: none;
+    }
+
+    header .caixa-menu .menu-grande .redes-sociais{
+        display: none;
+    }
+
+    .main-section{
+        width: auto;
+    }
+
+    .main-section .container-pag-inicio{
+        width: 100%;
+    }
+}
+
+
+
+/* Formatação redes sociais mob */
+@media screen and (max-width:600px){
+
+    .redes-sociais-mob{
+        display: flex;
+        margin: 20% auto -60px;
+    }
+    
+}
+
+
+
+/* Formatação do banner principal */
+@media screen and (max-width:600px){
+
+    header .logo-e-descricao{
+        height: 210px;
+        box-shadow: 1px 5px 5px black;
+    }
+
+}
+
+
+
+
+@media screen and (max-width:600px){
+    /* Formatação do banner principal */
+    .banner-tonhao{
+        width: auto;
+        margin-top: 10px;
+    }
+
+    .banner-tonhao .slideshow-container .mySlides img{
+        width: 100%;
+        height: 300px;
+        object-fit: cover;
+        object-position: center;
+    }
+
+
+    /* FORMATAÇÃO MAIN SECTION */
+    .main-section .container-pag-inicio{
+        display: block;
+        width: auto;
+        margin: 60px auto 0px;
+        padding: 0px 15px;
+    }
+    .main-section .container-pag-inicio .miniatura img:hover{
+        transform:scale(1);
+        transition: transform .3s;
+    }
+    .main-section .container-pag-inicio .miniatura{
+        width: 366px;
+        margin-bottom: 40px;
+    }
+    .main-section .container-pag-inicio .margem-mini{
+        margin: 0px 0px 40px;
+    }
+}
+
+
+
+/* Formatação da página de cineastras */
+@media screen and (max-width:600px){
+
+    .main-section .container-cineastra{
+        padding: 15px;
+    }
+    .main-section .container-cineastra .cineastra{
+        display: block;
+        padding: 0px;
+    }
+    .main-section .container-cineastra .cineastra .foto-cineastra{
+        width: 140px;
+        margin: 0 auto;
+    }
+    .main-section .container-cineastra .cineastra .nome-cineastra{
+        width: 100%;
+    }
+    .main-section .container-cineastra .cineastra .nome-cineastra h1{
+        text-align: center;
+    }
+    .main-section .container-cineastra .cineastra .nome-cineastra a{
+        display: block;
+        text-align: center;
+    }
+
+}
+
+
+
+/* Formatação da página de filmes */
+@media screen and (max-width:600px){
+
+    .main-section-cineastra .container-filmes{
+        max-width: auto;
+        display: block;
+    }
+    .main-section-cineastra .container-filmes a{
+        margin: 20px auto 50px;
+    }
+
+}

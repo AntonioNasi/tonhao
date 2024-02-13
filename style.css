@@ -10,6 +10,7 @@ html{
 
 body{
     font-family: 'Roboto', sans-serif;
+    background-color: #F8F6EC;
 }
 
 .material-symbols-outlined {
@@ -86,49 +87,8 @@ header .caixa-menu .menu-grande .redes-sociais a img{
     filter:brightness(20%);
 }
 
-@media screen and (min-width:600px){
-    .redes-sociais-mob{
-        display: none;
-    }
-}
-
-
-
-
 header .caixa-menu .menu-grande .menu-pequeno{
     width: 100%;
-}
-
-@media screen and (min-width: 600px){
-    header .caixa-menu .menu-grande .menu-pequeno{
-        display: none;
-    }
-}
-
-@media screen and (max-width: 600px){
-    header .caixa-menu{
-        width: 100%;
-    }
-
-    header .caixa-menu .menu-grande{
-        width: 100%;
-    }
-
-    header .caixa-menu .menu-grande nav{
-        display: none;
-    }
-
-    header .caixa-menu .menu-grande .redes-sociais{
-        display: none;
-    }
-
-    .main-section{
-        width: auto;
-    }
-
-    .main-section .container-pag-inicio{
-        width: 100%;
-    }
 }
 
 
@@ -216,6 +176,13 @@ header .logo-e-descricao{
 .banner-tonhao{
     width: 1180px;
     margin: 70px auto 0px;
+}
+
+.banner-tonhao .slideshow-container .mySlides img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    object-position: center;
 }
 
 .mySlides {display: none;}
@@ -371,16 +338,17 @@ footer #cx-footer p{
     max-width: 1180px;
     margin: 0 auto;
     margin-bottom: 20px;
+
+    background-color: #ffffff;
 }
 
 .main-section .container-cineastra .cineastra{
     display: flex;
-    border-bottom: solid 1px #000000;
     padding: 20px;
 }
 
 .main-section .container-cineastra .cineastra .foto-cineastra{
-    width: 45%;
+    width: 35%;
 }
 
 .main-section .container-cineastra .cineastra .foto-cineastra img{
