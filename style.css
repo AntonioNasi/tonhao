@@ -328,6 +328,30 @@ footer #cx-footer p{
 
 
 
+/* FORMATAÇÃO PÁGINA QUEM SOMOS*/
+.main-section{
+    width: auto;
+    margin: 0px auto 0px;
+    border: solid 1px transparent;
+}
+.main-section .container-pag-quemsomos{
+    display: block;
+    width: 1180px;
+    margin: 60px auto 0px;
+}
+.main-section .container-pag-quemsomos h1{
+    font-size: 48px;
+    text-align: center;
+}
+.main-section .container-pag-quemsomos p{
+    margin: 15px 0px 20px 0px;
+    font-size: 22px;
+}
+
+
+
+
+
 
 /* FORMATAÇÃO DA PÁGINA CINEASTRAS */
 .main-section{

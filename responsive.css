@@ -102,6 +102,26 @@
 
 
 
+
+
+/* FORMATAÇÃO QUEM SOMOS */
+@media screen and (max-width:600px){
+    .main-section .container-pag-quemsomos{
+        display: block;
+        width: auto;
+        margin: 60px auto 0px;
+        padding: 0px 15px;
+    }
+    .main-section .container-pag-quemsomos h1{
+        font-size: 28px;
+    }
+    .main-section .container-pag-quemsomos p{
+        font-size: 20px;
+    }
+}
+
+
+
 /* Formatação da página de cineastras */
 @media screen and (max-width:600px){
 
