@@ -415,17 +415,37 @@ footer #cx-footer p{
     padding: 20px;
 }
 
+.main-section-cineastra .cx-search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.main-section-cineastra .cx-search input{
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    border-radius: 6px;
+    border: solid 1px #cf1c1c;
+}
+
 .main-section-cineastra .container-filmes{
     max-width: 1080px;
     margin: 0 auto;
 }
 
-.main-section-cineastra .container-filmes a{
+.main-section-cineastra .container-filmes ul li{
+    list-style: none;
+    list-style-position: inside;
+}
+
+.main-section-cineastra .container-filmes ul li a{
     text-decoration: none;
     color: #000000;
 }
 
-.main-section-cineastra .container-filmes .cx-link{
+.main-section-cineastra .container-filmes ul li .cx-link{
     width: 100%;
     height: 100%;
     display: block;
@@ -434,20 +454,20 @@ footer #cx-footer p{
     margin-bottom: 40px;
 }
 
-.main-section-cineastra .container-filmes .cx-link:hover{
+.main-section-cineastra .container-filmes ul li .cx-link:hover{
     box-shadow: 3px 3px 1px 4px #cf1c1c;
 }
 
-.main-section-cineastra .container-filmes .cx-link .filme{
+.main-section-cineastra .container-filmes ul li .cx-link .filme{
     display: flex;
 }
 
-.main-section-cineastra .container-filmes .cx-link .filme .capa-filme{
+.main-section-cineastra .container-filmes ul li .cx-link .filme .capa-filme{
     width: 50%;
     border-radius: 0px 0px 0px 0px;
 }
 
-.main-section-cineastra .container-filmes .cx-link .filme .capa-filme img{
+.main-section-cineastra .container-filmes ul li .cx-link .filme .capa-filme img{
     width: 100%;
     height: 300px;
     object-fit: cover;
@@ -455,13 +475,13 @@ footer #cx-footer p{
     border-radius: 30px 0px 0px 30px;
 }
 
-.main-section-cineastra .container-filmes .cx-link .filme .descreve-filme{
+.main-section-cineastra .container-filmes ul li .cx-link .filme .descreve-filme{
     width: 50%;
     margin: 20px 10px 0px 20px;
     border-radius: 0px 30px 30px 0px;
 }
 
-.main-section-cineastra .container-filmes .cx-link .filme .descreve-filme .numero-filme{
+.main-section-cineastra .container-filmes ul li .cx-link .filme .descreve-filme .numero-filme{
     background-color: #CC1111;
     color: #f1f1f1;
     padding: 5px 5px 5px 5px;
@@ -469,44 +489,44 @@ footer #cx-footer p{
     margin-bottom: 10px;
 }
 
-.main-section-cineastra .container-filmes .cx-link .filme .descreve-filme span{
+.main-section-cineastra .container-filmes ul li .cx-link .filme .descreve-filme span{
 }
 
-.main-section-cineastra .container-filmes .cx-link .filme .descreve-filme h2{
+.main-section-cineastra .container-filmes ul li .cx-link .filme .descreve-filme h2{
     letter-spacing: 0px;
 }
 
-.main-section-cineastra .container-filmes .cx-link .filme .descreve-filme .titulo-filme{
+.main-section-cineastra .container-filmes ul li .cx-link .filme .descreve-filme .titulo-filme{
     display: flex;
     align-items: center;
 }
 
-.main-section-cineastra .container-filmes .cx-link .filme .descreve-filme .titulo-filme span{
+.main-section-cineastra .container-filmes ul li .cx-link .filme .descreve-filme .titulo-filme span{
     margin-right: 15px;
     font-size: 30px;
 }
 
-.main-section-cineastra .container-filmes .cx-link .filme .descreve-filme .cineastra-filme{
+.main-section-cineastra .container-filmes ul li .cx-link .filme .descreve-filme .cineastra-filme{
     display: flex;
     align-items: center;
 }
 
-.main-section-cineastra .container-filmes .cx-link .filme .descreve-filme .cineastra-filme span{
+.main-section-cineastra .container-filmes ul li .cx-link .filme .descreve-filme .cineastra-filme span{
     margin-right: 15px;
     font-size: 32px;
 }
 
-.main-section-cineastra .container-filmes .cx-link .filme .descreve-filme .sinopse-filme{
+.main-section-cineastra .container-filmes ul li .cx-link .filme .descreve-filme .sinopse-filme{
     display: flex;
     align-items: center;
 }
 
-.main-section-cineastra .container-filmes .cx-link .filme .descreve-filme .sinopse-filme span{
+.main-section-cineastra .container-filmes ul li .cx-link .filme .descreve-filme .sinopse-filme span{
     margin-right: 15px;
     font-size: 32px;
 }
 
-.main-section-cineastra .container-filmes .cx-link .filme .descreve-filme p{
+.main-section-cineastra .container-filmes ul li .cx-link .filme .descreve-filme p{
     text-align: justify;
     margin-top: 10px;
     font-size: 18px;

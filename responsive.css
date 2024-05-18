@@ -158,8 +158,33 @@
         max-width: auto;
         display: block;
     }
-    .main-section-cineastra .container-filmes a{
+    .main-section-cineastra .container-filmes ul li a{
         margin: 20px auto 50px;
+    }
+
+    .main-section-cineastra .container-filmes ul li .cx-link .filme{
+        display: block;
+    }
+    .main-section-cineastra .container-filmes ul li .cx-link .filme .capa-filme{
+        width: 100%;
+    }
+    .main-section-cineastra .container-filmes ul li .cx-link .filme .capa-filme img{
+        height: 200px;
+        border-radius: 30px 30px 0px 0px;
+    }
+
+    .main-section-cineastra .container-filmes ul li .cx-link .filme .descreve-filme{
+        width: auto;
+        margin: 20px 10px 0px 20px;
+        padding-bottom: 10px;
+    }
+
+    .main-section-cineastra .container-filmes ul li .cx-link .filme .descreve-filme .numero-filme{
+        text-align: center;
+    }
+
+    .main-section-cineastra .container-filmes ul li .cx-link .filme .descreve-filme h2{
+        letter-spacing: -1px;
     }
 
 }
